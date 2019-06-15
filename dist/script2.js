@@ -19,7 +19,7 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 
 
 
-var array1 = ['img/config.png','img/onpic.png','img/plantplastic.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png'];
+var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/plantplastic.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/pinkbowl.png'];
 
 
 function createthingy(array){
@@ -47,7 +47,7 @@ function createthingy(array){
     document.body.appendChild(main)
   }
 }
-// tried to see if i could re-assign the first div classname, but no.... 
+
 
 createthingy(array1)
 
