@@ -22,59 +22,27 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 var array1 = ['img/config.png','img/onpic.png','img/plantplastic.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png','img/onpic.png'];
 
 
-
-  //var div2 = document.createElement("div");
-  // for (var i = 0; i < 27; i++) {
-  // document.getElementById("scene").createElement("div")[c]
-  // img = document.createAttribute("src", c)
-  // }
-
-  // var elem = document.createElement("img");
-  // elem.setAttribute("src", element)
-  //console.log(element);
-  // var targetArea = document.getElementById('nav');
-  // var div = document.createElement('div');
-  // var snippet = document.createTextNode('this is a new DIV');
-  // div.appendChild(snippet);
-  // targetArea.appendChild(div);
-//}
-
-// var targetArea = document.getElementsByClassName("scene");
-// var div = document.createElement('div');
-// var snippet = document.createElement('img');
-// snippet.src = imagepath;
-// div.appendChild(snippet);
-// targetArea.appendChild(div);
-
-// var html = '<div className="scene"></div>';
-
-// var container = document.createElement("div");
-// container.className = "scene";
-  
-
-
-
-
 function createthingy(array){
-  var div
-  var div2
-  var myImage
+  
   main = document.createElement('div');
   main.className = "main";
   containerdiv = document.createElement('div');
   containerdiv.className = "scene";
+  plant = document.createElement('div');
+  plant.className = "plant";
   for (var c in array) {  
-    div = document.createElement('div');
+    var div = document.createElement('div');
     div.className = "img";
     containerdiv.appendChild(div)
-    div2 = document.createElement('div');
+    var div2 = document.createElement('div');
     div2.className = "img__content";
-    myImage = new Image();
+    var myImage = new Image();
     myImage.src = array[c]
     div2.appendChild(myImage)
     div.appendChild(div2)
     //targetArea.appendChild(div)
-    containerdiv.appendChild(div);
+    plant.appendChild(div);
+    containerdiv.appendChild(plant);
     main.appendChild(containerdiv)
     document.body.appendChild(main)
   }
