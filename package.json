@@ -1,0 +1,19 @@
+{
+  "name": "rotating-3d-plant-css",
+  "version": "1.0.0",
+  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/kunukn/pen/ZJdpXx](https://codepen.io/kunukn/pen/ZJdpXx).",
+  "main": "src/index.slim",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senselab-3e/plant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senselab-3e/plant/issues"
+  },
+  "homepage": "https://github.com/senselab-3e/plant#readme"
+}

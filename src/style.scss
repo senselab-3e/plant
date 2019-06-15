@@ -39,8 +39,6 @@ img{
   will-change: transform;
 }
 
-
-
 .shadow {
   position: absolute;
   $size: 50%;
@@ -148,6 +146,7 @@ img{
     transform: rotateZ(1turn);
   }
 }
+
 @keyframes wave {
   0%{
     transform: skewY(-2deg);
