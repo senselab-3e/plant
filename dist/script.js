@@ -18,6 +18,9 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 //-----------------------
 
 
+// var targetArea = document.getElementsByClassName("scene");
+
+//-------------------------
 
 var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/plantplastic.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/pinkbowl.png'];
 
@@ -51,46 +54,21 @@ function createthingy(array){
   }
 }
 
-
-createthingy(array1)
-createthingy(array2)
+const arrayoptions = [array1, array2]
 
 
-var targetArea = document.getElementsByClassName("scene");
+const insertarry = () => {
+   return Math.floor(Math.random() * Math.floor(arrayoptions.length));
+}
 
-// function createspin(thingies){
-//   div = document.createElement('div');
-//   div.className = "scene";
-//   thingy = new Image();
-//   thingy.src = thingies[0]
-//   document.getElementsByClassName('scene').innerHTML ('<div>thingy</div>')
-// }
+//by having arrayoptions.length, it means that we can continually fluxuate the number of arrays passing through array options, without having to update the values in this function. 
 
-// createspin(array1)
+console.log(insertarry)
 
-//function createDiv(numberOfDivs) {
-  //var i = 0;
-  //var newElement = [];
-  //var mainContainer = document.getElementByClass('scene');
-  //mainContainer.appendChild(array1[0])
-//   for (i; i < numberOfDivs; i++) {
-//     newElement[i] = document.createElement('div');
-//     //newElement[i].style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-//     newElement[i].className = 'img';
-//     newElement[i].src = array1[0]
-//     newElement[i].id = (i + 1);
-// //  newElement[i].textContent = 'this is div number: ' + (i + 1);
-//     mainContainer.appendChild(newElement[i]);
-//   }
-//};
-
-// createDiv(10);
+createthingy(arrayoptions[insertarry()])
+//createthingy(array2)
 
 
-
-// var mainContainer = document.getElementsByClassName("apples");
-
-// mainContainer.append(array1[0])
 
 
 
