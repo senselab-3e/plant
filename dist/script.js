@@ -22,11 +22,14 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 
 //-------------------------
 
-var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/plantplastic.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/pinkbowl.png'];
+var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png'];
 
 
 var array2 = ['img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/purplepatch.png','img/metaltape.png','img/mintwashu.png','img/pinkbowlsid.png','img/bubblerock.png','img/claybowl.png','img/claybowl.png','img/plob1.gif','img/chairshark.png','img/purplepatch.png','img/rock1.png'];
 
+var array3 = ['img/spong6.gif','img/spong6.gif','img/spong6.gif','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong10.gif','img/spong10.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/spongerock.png','img/spongerock.png'];
+
+var array4 = ['img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/typealoe.png','img/googly2.gif','img/opurple.png','img/typealoe.png','img/typealoe.png','img/weightcol.png','img/opurple.png','img/opurple.png','img/beblm.png','img/opurple.png','img/opurple.png','img/opurple.png','img/opurple.png','img/opurple.png']
 
 function createthingy(array){
   
@@ -54,7 +57,7 @@ function createthingy(array){
   }
 }
 
-const arrayoptions = [array1, array2]
+const arrayoptions = [array1, array2, array3, array4]
 
 
 const insertarry = () => {
@@ -63,10 +66,9 @@ const insertarry = () => {
 
 //by having arrayoptions.length, it means that we can continually fluxuate the number of arrays passing through array options, without having to update the values in this function. 
 
-console.log(insertarry)
-
 createthingy(arrayoptions[insertarry()])
-//createthingy(array2)
+
+//this is where we pass the random arry chosen in the arrayoptions function, into the consructorofthe3dthingy function createthingy
 
 
 
