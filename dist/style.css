@@ -43,6 +43,11 @@ img {
   will-change: transform;
 }
 
+.ball{
+  -webkit-animation: spin-shadow 30s linear infinite;
+          animation: spin-shadow 30s linear infinite;
+}
+
 .shadow {
   position: absolute;
   bottom: 0;

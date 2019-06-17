@@ -1,9 +1,9 @@
-if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chrome/)) {  
+if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chrome/)) {
   document.documentElement.className += " safari";
 }
 
 
-//-------------- old loop 
+//-------------- old loop
 
 // const elems = document.getElementsByv("insert");
 
@@ -19,21 +19,23 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 
 
 
-var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/plantplastic.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/pinkbowl.png'];
+// var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/plantplastic.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/pinkbowl.png'];
+var array1 = ['img/spongerock.png','img/spong4.gif','img/spong13.gif','img/spong13.gif','img/sponge15.gif','img/sponge2.gif','img/sponge3.gif','img/sponge3.gif','img/sponge9.gif','img/sponges.png','img/spong10.gif','img/spong10.gif','img/sponge12.gif','img/sponge12.gif','img/spongerock2.gif','img/spong4.gif','img/spong7.gif','img/sponge12.gif'];
 
 
-var array2 = ['img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/purplepatch.png','img/metaltape.png','img/mintwashu.png','img/pinkbowlsid.png','img/bubblerock.png','img/claybowl.png','img/claybowl.png','img/plob1.gif','img/chairshark.png','img/purplepatch.png','img/rock1.png'];
+// var array2 = ['img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/purplepatch.png','img/metaltape.png','img/mintwashu.png','img/pinkbowlsid.png','img/bubblerock.png','img/claybowl.png','img/claybowl.png','img/plob1.gif','img/chairshark.png','img/purplepatch.png','img/rock1.png'];
+// var array2 = ['img/rocktape.png','img/tablebump.png','img/tablebump.png','img/tinybluechair.gif','img/tapeconfiguration.png','img/wiggli.png','img/woodtiles.png','img/sponge9.gif.png','img/slinky.png','img/posters.png','img/posters.png','img/posters.png','img/sponge13.gif','img/redblueblob.png','img/rock7.png','img/rock6.png'];
 
 
 function createthingy(array){
-  
+
   main = document.createElement('div');
   main.className = "main";
   containerdiv = document.createElement('div');
   containerdiv.className = "scene";
   plant = document.createElement('div');
   plant.className = "plant";
-  for (var c in array) {  
+  for (var c in array) {
     var div = document.createElement('div');
     div.className = "img";
     containerdiv.appendChild(div)
@@ -47,13 +49,12 @@ function createthingy(array){
     containerdiv.appendChild(plant);
     main.appendChild(containerdiv)
     document.body.appendChild(main)
-    
   }
 }
 
 
 createthingy(array1)
-createthingy(array2)
+// createthingy(array2)
 
 
 var targetArea = document.getElementsByClassName("scene");
@@ -91,12 +92,3 @@ var targetArea = document.getElementsByClassName("scene");
 // var mainContainer = document.getElementsByClassName("apples");
 
 // mainContainer.append(array1[0])
-
-
-
-
-
-
-
-
-
