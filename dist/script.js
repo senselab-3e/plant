@@ -22,14 +22,16 @@ if (navigator.userAgent.match(/AppleWebKit/) && ! navigator.userAgent.match(/Chr
 
 //-------------------------
 
-var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png'];
+var array1 = ['img/pinkpatch.png','img/pinkpatch.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/chairshark.png','img/chairshark.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/prepillowcreature.png','img/pinkpatch.png','img/sponge3.gif','img/sponge3.gif'];
 
 
 var array2 = ['img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/plob1.gif','img/purplepatch.png','img/metaltape.png','img/mintwashu.png','img/pinkbowlsid.png','img/bubblerock.png','img/claybowl.png','img/claybowl.png','img/plob1.gif','img/chairshark.png','img/purplepatch.png','img/rock1.png'];
 
-var array3 = ['img/spong6.gif','img/spong6.gif','img/spong6.gif','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong10.gif','img/spong10.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/spongerock.png','img/spongerock.png'];
+var array3 = ['img/bowlsponge.png','img/bowlsponge.png','img/bowlsponge.png','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong5.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong4.gif','img/spong10.gif','img/weightcol.png','img/weightcol.png','img/weightcol.png','img/spong10.gif','img/bowlsponge.png','img/sponge4.gif','img/sponge4.gif','img/sponge4.gif','img/spongerock.png','img/spongerock.png','img/weightcol.png'];
 
-var array4 = ['img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/typealoe.png','img/googly2.gif','img/opurple.png','img/typealoe.png','img/typealoe.png','img/weightcol.png','img/opurple.png','img/opurple.png','img/beblm.png','img/opurple.png','img/opurple.png','img/opurple.png','img/opurple.png','img/opurple.png']
+var array4 = ['img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/beigbowl.png','img/typealoe.png','img/googly2.gif','img/opurple.png','img/typealoe.png','img/typealoe.png','img/weightcol.png','img/opurple.png','img/opurple.png','img/beblm.png','img/opurple.png','img/opurple.png','img/opurple.png','img/opurple.png','img/plantplastic.png','img/plantplastic.png']
+
+var array5 = ['img/typbroommm.png','img/typbroommm.png','img/typbroommm.png','img/typbroommm.png','img/typbroommm.png','img/posters.png','img/typbroommm.png','img/typbroommm.png','img/typbroommm.png','img/purplerock.png','img/purplerock.png','img/purplerock.png','img/sponges.png','img/sponges.png','img/cephskin.png']
 
 function createthingy(array){
   
@@ -57,7 +59,7 @@ function createthingy(array){
   }
 }
 
-const arrayoptions = [array1, array2, array3, array4]
+const arrayoptions = [array1, array2, array3, array4, array5]
 
 
 const insertarry = () => {
