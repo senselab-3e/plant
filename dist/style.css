@@ -43,10 +43,7 @@ img {
   will-change: transform;
 }
 
-.ball{
-  -webkit-animation: spin-shadow 30s linear infinite;
-          animation: spin-shadow 30s linear infinite;
-}
+
 
 .shadow {
   position: absolute;
@@ -403,6 +400,11 @@ img {
   opacity: .2;
 }
 
+.ball{
+  -webkit-animation: tumble 30s linear infinite;
+          animation: tumble 30s linear infinite;
+}
+
 @-webkit-keyframes spin {
   to {
     -webkit-transform: rotateY(-1turn);
@@ -446,5 +448,19 @@ img {
   100% {
     -webkit-transform: skewY(2deg);
             transform: skewY(2deg);
+  }
+}
+
+@-webkit-keyframes tumble {
+  to {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+}
+
+@keyframes tumble {
+  to {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
   }
 }
